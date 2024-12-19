@@ -25,6 +25,7 @@ edifici= {
 
 
 app = dash.Dash(__name__,external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 app.layout = dbc.Container([
     html.H1("API Request Interface", className="pad-row"),
 
